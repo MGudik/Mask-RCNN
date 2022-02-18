@@ -56,6 +56,8 @@ def main():
         lr_scheduler.step()
         # evaluate on the test dataset
         evaluate(model, data_loader_test, device=device)
+        
+        torch.save(model.state_dict(), f'{epoch + 1}E_model_weight.pth')
 
     print("That's it!")
 
