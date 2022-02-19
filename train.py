@@ -6,14 +6,17 @@ from model import get_model_instance_segmentation
 
 
 def main():
+
+    utils.force_cudnn_initialization()
+
     # train on the GPU or on the CPU, if a GPU is not available
     device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
     # our dataset has two classes only - background and person
     num_classes = 2
     # use our dataset and defined transformations
-    dataset = PennFudanDataset(fr'C:\Users\Mathias Gudiksen\Desktop\PennFudanPed', utils.get_transform(train=True))
-    dataset_test = PennFudanDataset(fr'C:\Users\Mathias Gudiksen\Desktop\PennFudanPed', utils.get_transform(train=False))
+    dataset = PennFudanDataset(fr'C:\Users\Gudik\Desktop\PennFudanPed', utils.get_transform(train=True))
+    dataset_test = PennFudanDataset(fr'C:\Users\Gudik\Desktop\PennFudanPed', utils.get_transform(train=False))
 
     
 
@@ -24,7 +27,7 @@ def main():
 
     # define training and validation data loaders
     data_loader = torch.utils.data.DataLoader(
-        dataset, batch_size=2, shuffle=True, num_workers=4,
+        dataset, batch_size=1, shuffle=True, num_workers=4,
         collate_fn=utils.collate_fn)
 
     data_loader_test = torch.utils.data.DataLoader(
@@ -57,7 +60,7 @@ def main():
         # evaluate on the test dataset
         evaluate(model, data_loader_test, device=device)
         
-        torch.save(model.state_dict(), f'{epoch + 1}E_model_weight.pth')
+        torch.save(model.state_dict(), f'weights//{epoch + 1}E_model_weight.pth')
 
     print("That's it!")
 
