@@ -1,0 +1,1120 @@
+[2022-03-04 02:09:06] DEBUG: Unexpected token ] in JSON at position 545  - traced from config.service.js:254:25 >> config.service.js:64:33 >> instantiation.js:51:18 >> resolver.js:75:42 >> instantiation.js:17:57 >> instantiation.js:48:18 >> resolver.js:75:42
+[2022-03-04 02:09:06] SILLY: --- Started Emily --- 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Windows\System32... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Windows... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Windows\System32\wbem... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Windows\System32\WindowsPowerShell\v1.0\... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Windows\System32\OpenSSH\... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Program Files\Git\cmd... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Program Files\nodejs\... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x64... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x32... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\cygwin64\bin... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Program Files (x86)\GnuPG\bin... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Program Files\CMake\bin... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Program Files\Docker\Docker\resources\bin... 
+[2022-03-04 02:09:06] DEBUG: ENOENT: no such file or directory, lstat 'C:\ProgramData\DockerDesktop\version-bin'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> install.service.js:49:25 >> app.service.js:57:37 >> app.service.js:17:71 >> app.service.js:13:12
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\Scripts\... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\... 
+[2022-03-04 02:09:06] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\Scripts\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> install.service.js:49:25 >> app.service.js:57:37 >> app.service.js:17:71 >> app.service.js:13:12
+[2022-03-04 02:09:06] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> install.service.js:49:25 >> app.service.js:57:37 >> app.service.js:17:71 >> app.service.js:13:12
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Microsoft\WindowsApps... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Roaming\npm... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Microsoft VS Code\bin... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Windows\System32... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Windows... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Windows\System32\wbem... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Windows\System32\WindowsPowerShell\v1.0\... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Windows\System32\OpenSSH\... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Program Files\Git\cmd... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Program Files\nodejs\... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x64... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x32... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\cygwin64\bin... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Program Files (x86)\GnuPG\bin... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Program Files\CMake\bin... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Program Files\Docker\Docker\resources\bin... 
+[2022-03-04 02:09:06] DEBUG: ENOENT: no such file or directory, lstat 'C:\ProgramData\DockerDesktop\version-bin'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> install.service.js:49:25 >> app.service.js:129:37 >> app.service.js:17:71 >> app.service.js:13:12
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\Scripts\... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\... 
+[2022-03-04 02:09:06] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\Scripts\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> install.service.js:49:25 >> app.service.js:129:37 >> app.service.js:17:71 >> app.service.js:13:12
+[2022-03-04 02:09:06] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> install.service.js:49:25 >> app.service.js:129:37 >> app.service.js:17:71 >> app.service.js:13:12
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Microsoft\WindowsApps... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Roaming\npm... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Microsoft VS Code\bin... 
+[2022-03-04 02:09:06] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily... 
+[2022-03-04 02:09:06] DEBUG: Event: {"@timestamp":"2022-03-04T13:09:06.645Z","platform":"win32","installationId":"a0ba273e9b4ca5c2d6379231bfde6df8","environment":"staging","version":"1.2.5","message":"Installed on win32","level":"info","event":{"name":"installed","value":"1.2.5"}} 
+[2022-03-04 02:09:06] VERBOSE: HTTP GET: https://api.github.com/repos/amboltio/emily-cli/releases 
+[2022-03-04 02:09:07] VERBOSE: Response: 200 OK 
+[2022-03-04 02:09:07] VERBOSE: Checking VSCode... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\wbem... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\WindowsPowerShell\v1.0\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\OpenSSH\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Git\cmd... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\nodejs\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x64... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\cygwin64\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\GnuPG\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\CMake\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Docker\Docker\resources\bin... 
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\ProgramData\DockerDesktop\version-bin'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-helper.service.js:62:44 >> vscode-helper.service.js:17:71 >> vscode-helper.service.js:13:12 >> vscode-helper.service.js:59:16
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\Scripts\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\... 
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\Scripts\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-helper.service.js:62:44 >> vscode-helper.service.js:17:71 >> vscode-helper.service.js:13:12 >> vscode-helper.service.js:59:16
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-helper.service.js:62:44 >> vscode-helper.service.js:17:71 >> vscode-helper.service.js:13:12 >> vscode-helper.service.js:59:16
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Microsoft\WindowsApps... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Roaming\npm... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Microsoft VS Code\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for Remote Development Extension 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\wbem... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\WindowsPowerShell\v1.0\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\OpenSSH\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Git\cmd... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\nodejs\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x64... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\cygwin64\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\GnuPG\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\CMake\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Docker\Docker\resources\bin... 
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\ProgramData\DockerDesktop\version-bin'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-extension-helper.service.js:37:44 >> vscode-extension-helper.service.js:17:71 >> vscode-extension-helper.service.js:13:12 >> vscode-extension-helper.service.js:35:16
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\Scripts\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\... 
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\Scripts\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-extension-helper.service.js:37:44 >> vscode-extension-helper.service.js:17:71 >> vscode-extension-helper.service.js:13:12 >> vscode-extension-helper.service.js:35:16
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-extension-helper.service.js:37:44 >> vscode-extension-helper.service.js:17:71 >> vscode-extension-helper.service.js:13:12 >> vscode-extension-helper.service.js:35:16
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Microsoft\WindowsApps... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Roaming\npm... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Microsoft VS Code\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for Python Extension 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\wbem... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\WindowsPowerShell\v1.0\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\OpenSSH\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Git\cmd... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\nodejs\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x64... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\cygwin64\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\GnuPG\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\CMake\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Docker\Docker\resources\bin... 
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\ProgramData\DockerDesktop\version-bin'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-extension-helper.service.js:37:44 >> vscode-extension-helper.service.js:17:71 >> vscode-extension-helper.service.js:13:12 >> vscode-extension-helper.service.js:35:16
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\Scripts\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\... 
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\Scripts\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-extension-helper.service.js:37:44 >> vscode-extension-helper.service.js:17:71 >> vscode-extension-helper.service.js:13:12 >> vscode-extension-helper.service.js:35:16
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-extension-helper.service.js:37:44 >> vscode-extension-helper.service.js:17:71 >> vscode-extension-helper.service.js:13:12 >> vscode-extension-helper.service.js:35:16
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Microsoft\WindowsApps... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Roaming\npm... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Microsoft VS Code\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\wbem... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\WindowsPowerShell\v1.0\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\OpenSSH\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Git\cmd... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\nodejs\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\kubectl.exe... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x64... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\cygwin64\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\GnuPG\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\CMake\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Docker\Docker\resources\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\ProgramData\DockerDesktop\version-bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\Scripts\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\Scripts\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Microsoft\WindowsApps... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Roaming\npm... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Microsoft VS Code\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory ... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\JetBrains\PyCharm 2021.2\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking Docker... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\wbem... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\WindowsPowerShell\v1.0\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\OpenSSH\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Git\cmd... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\nodejs\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x64... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\cygwin64\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\GnuPG\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\CMake\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Docker\Docker\resources\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for file C:\Program Files\Docker\Docker\Docker Desktop.exe... 
+[2022-03-04 02:09:07] VERBOSE: Checking if WSL Kernel update is installed... 
+[2022-03-04 02:09:07] VERBOSE: SHELL tasklist | findstr docker.exe  
+[2022-03-04 02:09:07] DEBUG: Executing tasklist | findstr docker.exe  with options {"validExitCodes":[0,1]} 
+[2022-03-04 02:09:07] VERBOSE: Checking if windows is running on hyper v... 
+[2022-03-04 02:09:07] VERBOSE: SHELL tasklist | findstr docker.exe  
+[2022-03-04 02:09:07] DEBUG: Executing tasklist | findstr docker.exe  with options {"validExitCodes":[0,1]} 
+[2022-03-04 02:09:07] VERBOSE: Checking kubectl... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\wbem... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\WindowsPowerShell\v1.0\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\OpenSSH\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Git\cmd... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\nodejs\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x64... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\cygwin64\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\GnuPG\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\CMake\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Docker\Docker\resources\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\wbem... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\WindowsPowerShell\v1.0\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\OpenSSH\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Git\cmd... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\nodejs\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x64... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\cygwin64\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\GnuPG\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\CMake\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Docker\Docker\resources\bin... 
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\ProgramData\DockerDesktop\version-bin'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-extension-helper.service.js:37:44 >> vscode-extension-helper.service.js:17:71 >> vscode-extension-helper.service.js:13:12 >> vscode-extension-helper.service.js:35:16
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\Scripts\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\... 
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\Scripts\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-extension-helper.service.js:37:44 >> vscode-extension-helper.service.js:17:71 >> vscode-extension-helper.service.js:13:12 >> vscode-extension-helper.service.js:35:16
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-extension-helper.service.js:37:44 >> vscode-extension-helper.service.js:17:71 >> vscode-extension-helper.service.js:13:12 >> vscode-extension-helper.service.js:35:16
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Microsoft\WindowsApps... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Roaming\npm... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Microsoft VS Code\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\wbem... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\WindowsPowerShell\v1.0\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\OpenSSH\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Git\cmd... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\nodejs\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x64... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\cygwin64\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\GnuPG\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\CMake\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Docker\Docker\resources\bin... 
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\ProgramData\DockerDesktop\version-bin'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-extension-helper.service.js:37:44 >> vscode-extension-helper.service.js:17:71 >> vscode-extension-helper.service.js:13:12 >> vscode-extension-helper.service.js:35:16
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\Scripts\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\... 
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\Scripts\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-extension-helper.service.js:37:44 >> vscode-extension-helper.service.js:17:71 >> vscode-extension-helper.service.js:13:12 >> vscode-extension-helper.service.js:35:16
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-extension-helper.service.js:37:44 >> vscode-extension-helper.service.js:17:71 >> vscode-extension-helper.service.js:13:12 >> vscode-extension-helper.service.js:35:16
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Microsoft\WindowsApps... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Roaming\npm... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Microsoft VS Code\bin... 
+[2022-03-04 02:09:07] VERBOSE: SHELL code --list-extensions --show-versions 
+[2022-03-04 02:09:07] DEBUG: Executing code --list-extensions --show-versions with options {"validExitCodes":[0,1]} 
+[2022-03-04 02:09:07] VERBOSE: SHELL code --list-extensions --show-versions 
+[2022-03-04 02:09:07] DEBUG: Executing code --list-extensions --show-versions with options {"validExitCodes":[0,1]} 
+[2022-03-04 02:09:07] VERBOSE: dbaeumer.vscode-eslint@2.2.2
+ 
+[2022-03-04 02:09:07] VERBOSE: eamodio.gitlens@12.0.1
+GitHub.copilot@1.7.5209
+gitkraken.gitkraken-authentication@1.0.3
+mikestead.dotenv@1.0.1
+ms-python.python@2022.2.1924087327
+ms-python.vscode-pylance@2022.3.0
+ms-toolsai.jupyter@2022.2.1020642448
+ms-toolsai.jupyter-keymap@1.0.0
+ms-toolsai.jupyter-renderers@1.0.6
+ms-vscode-remote.remote-containers@0.224.2
+ms-vscode-remote.remote-ssh@0.76.1
+ms-vscode-remote.remote-ssh-edit@0.76.1
+ms-vscode-remote.remote-wsl@0.64.2
+ms-vscode-remote.vscode-remote-extensionpack@0.21.0
+ms-vsliveshare.vsliveshare@1.0.5418
+ms-vsliveshare.vsliveshare-audio@0.1.91
+ms-vsliveshare.vsliveshare-pack@0.4.0
+ 
+[2022-03-04 02:09:07] VERBOSE: dbaeumer.vscode-eslint@2.2.2
+ 
+[2022-03-04 02:09:07] VERBOSE: eamodio.gitlens@12.0.1
+GitHub.copilot@1.7.5209
+gitkraken.gitkraken-authentication@1.0.3
+mikestead.dotenv@1.0.1
+ms-python.python@2022.2.1924087327
+ms-python.vscode-pylance@2022.3.0
+ms-toolsai.jupyter@2022.2.1020642448
+ms-toolsai.jupyter-keymap@1.0.0
+ms-toolsai.jupyter-renderers@1.0.6
+ms-vscode-remote.remote-containers@0.224.2
+ms-vscode-remote.remote-ssh@0.76.1
+ms-vscode-remote.remote-ssh-edit@0.76.1
+ms-vscode-remote.remote-wsl@0.64.2
+ms-vscode-remote.vscode-remote-extensionpack@0.21.0
+ms-vsliveshare.vsliveshare@1.0.5418
+ms-vsliveshare.vsliveshare-audio@0.1.91
+ms-vsliveshare.vsliveshare-pack@0.4.0
+ 
+[2022-03-04 02:09:07] VERBOSE: docker.exe                   17352 Console                    2     24 268 K
+ 
+[2022-03-04 02:09:07] VERBOSE: docker.exe                   17352 Console                    2     24 268 K
+ 
+[2022-03-04 02:09:07] DEBUG: tasklist | findstr docker.exe exited with code 0 and signal null 
+[2022-03-04 02:09:07] DEBUG: tasklist | findstr docker.exe exited with code 0 and signal null 
+[2022-03-04 02:09:07] DEBUG: code exited with code 0 and signal null 
+[2022-03-04 02:09:07] DEBUG: code exited with code 0 and signal null 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\wbem... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\WindowsPowerShell\v1.0\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Windows\System32\OpenSSH\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Git\cmd... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\nodejs\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x64... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x32... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\cygwin64\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files (x86)\GnuPG\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\CMake\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Program Files\Docker\Docker\resources\bin... 
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\ProgramData\DockerDesktop\version-bin'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> install.service.js:49:25 >> app.service.js:93:37 >> app.service.js:14:58 >> task_queues.js:95:5
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\Scripts\... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\... 
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\Scripts\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> install.service.js:49:25 >> app.service.js:93:37 >> app.service.js:14:58 >> task_queues.js:95:5
+[2022-03-04 02:09:07] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> install.service.js:49:25 >> app.service.js:93:37 >> app.service.js:14:58 >> task_queues.js:95:5
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Microsoft\WindowsApps... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Roaming\npm... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Microsoft VS Code\bin... 
+[2022-03-04 02:09:07] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily... 
+[2022-03-04 02:09:07] VERBOSE: HTTP GET: https://emily-dev-cluster.northeurope.cloudapp.azure.com/templates/v1/ 
+[2022-03-04 02:09:08] VERBOSE: Response: 200 OK 
+[2022-03-04 02:09:08] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily\.cache... 
+[2022-03-04 02:09:08] VERBOSE: Writing C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily\.cache\.templates.json... 
+[2022-03-04 02:09:08] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily\.cache... 
+[2022-03-04 02:09:08] VERBOSE: HTTP GET: https://emily-dev-cluster.northeurope.cloudapp.azure.com/templates/v1/ 
+[2022-03-04 02:09:08] VERBOSE: Response: 200 OK 
+[2022-03-04 02:09:08] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily\.cache... 
+[2022-03-04 02:09:08] VERBOSE: Writing C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily\.cache\.templates.json... 
+[2022-03-04 02:09:08] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily\.cache... 
+[2022-03-04 02:09:08] DEBUG: Executing emily command: C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily\emily.exe C:\snapshot\emily-CLI\dist\src\app.js open . 
+[2022-03-04 02:09:08] DEBUG: Parsed emily command arguments: {"project":"."} 
+[2022-03-04 02:09:08] DEBUG: Parsed emily command options: {"importOnly":false,"environmentName":"dev","silent":false,"update":true} 
+[2022-03-04 02:09:08] DEBUG: Attempting to open project by name: . 
+[2022-03-04 02:09:08] VERBOSE: Checking for directory .... 
+[2022-03-04 02:09:08] DEBUG: Attempting to open project by path: C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN 
+[2022-03-04 02:09:08] VERBOSE: Checking for file .... 
+[2022-03-04 02:09:08] DEBUG: Attempting to open project by id: . 
+[2022-03-04 02:09:08] VERBOSE: Checking for file .... 
+[2022-03-04 02:09:08] VERBOSE: Checking for directory .... 
+[2022-03-04 02:09:08] VERBOSE: Checking for directory .... 
+[2022-03-04 02:09:08] VERBOSE: Checking for file emily-config.json... 
+[2022-03-04 02:09:08] DEBUG: Emily: An Emily image is a pre-built docker image, which contain
+       essential packages, that is useful in the development of
+       microservices.
+       These images include relevant packages depending on which
+       type of project you are developing.
+ 
+[2022-03-04 02:09:11] VERBOSE: Checking for file .... 
+[2022-03-04 02:09:11] VERBOSE: Checking for directory .... 
+[2022-03-04 02:09:11] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN... 
+[2022-03-04 02:09:11] DEBUG: Attempting to open project by path: C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN 
+[2022-03-04 02:09:11] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev... 
+[2022-03-04 02:09:11] DEBUG: Reading C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\.emily-docker-compose.yml 
+[2022-03-04 02:09:11] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN... 
+[2022-03-04 02:09:11] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev... 
+[2022-03-04 02:09:11] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev... 
+[2022-03-04 02:09:11] DEBUG: Reading C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\.emily-docker-compose.yml 
+[2022-03-04 02:09:11] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN... 
+[2022-03-04 02:09:11] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN... 
+[2022-03-04 02:09:11] VERBOSE: HTTP GET: https://emily-dev-cluster.northeurope.cloudapp.azure.com/python-packages/v1/ 
+[2022-03-04 02:09:12] VERBOSE: Response: 200 OK 
+[2022-03-04 02:09:12] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily\.cache... 
+[2022-03-04 02:09:12] VERBOSE: Writing C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily\.cache\.lib2PkgDictionary.json... 
+[2022-03-04 02:09:12] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily\.cache... 
+[2022-03-04 02:09:12] VERBOSE: HTTP GET: https://emily-dev-cluster.northeurope.cloudapp.azure.com/python-packages/v1/slim 
+[2022-03-04 02:09:12] VERBOSE: Response: 200 OK 
+[2022-03-04 02:09:12] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily\.cache... 
+[2022-03-04 02:09:12] VERBOSE: Writing C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily\.cache\.emilySlimPackages.json... 
+[2022-03-04 02:09:12] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily\.cache... 
+[2022-03-04 02:09:12] VERBOSE: HTTP GET: https://emily-dev-cluster.northeurope.cloudapp.azure.com/python-packages/v1/standard 
+[2022-03-04 02:09:14] VERBOSE: Response: 200 OK 
+[2022-03-04 02:09:14] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily\.cache... 
+[2022-03-04 02:09:14] VERBOSE: Writing C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily\.cache\.standardPythonPackages.json... 
+[2022-03-04 02:09:14] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\.emily\.cache... 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to os 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for os 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to datetime 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for datetime 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to re 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for re 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to math 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for math 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to collections 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for collections 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to multiprocessing 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for multiprocessing 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to distutils 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for distutils 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to imgaug 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for imgaug 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to errno 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for errno 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to errno 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for errno 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to h5py 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to keras 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to os 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for os 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to sys 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for sys 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to os 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for os 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to logging 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for logging 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to math 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for math 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to random 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for random 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to scipy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to skimage 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to skimage 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to skimage 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to urllib 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for urllib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to shutil 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for shutil 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to warnings 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for warnings 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to distutils 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for distutils 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to os 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for os 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to sys 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for sys 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to random 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for random 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to itertools 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for itertools 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to colorsys 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for colorsys 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to skimage 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to IPython 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to os 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for os 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to sys 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for sys 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to json 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for json 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to datetime 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for datetime 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to skimage 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to cv2 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to argparse 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to os 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for os 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to sys 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for sys 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to itertools 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for itertools 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to math 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for math 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to logging 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for logging 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to json 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for json 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to re 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for re 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to random 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for random 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to collections 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for collections 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to samples 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to os 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for os 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to sys 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for sys 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to random 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for random 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to math 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for math 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to re 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for re 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to time 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for time 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to samples 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to os 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for os 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to sys 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for sys 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to time 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for time 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to imgaug 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for imgaug 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to pycocotools 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for pycocotools 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to pycocotools 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for pycocotools 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to pycocotools 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for pycocotools 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to zipfile 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for zipfile 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to urllib 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for urllib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to shutil 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for shutil 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to argparse 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to os 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for os 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to sys 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for sys 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to itertools 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for itertools 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to math 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for math 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to logging 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for logging 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to json 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for json 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to re 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for re 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to random 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for random 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to collections 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for collections 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to coco 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for coco 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to os 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for os 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to sys 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for sys 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to random 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for random 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to math 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for math 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to re 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for re 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to time 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for time 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to coco 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for coco 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to os 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for os 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to sys 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for sys 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to keras 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to coco 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for coco 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to os 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for os 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to sys 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for sys 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to random 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for random 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to math 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for math 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to skimage 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to coco 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for coco 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to os 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for os 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to sys 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for sys 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to itertools 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for itertools 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to math 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for math 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to logging 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for logging 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to json 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for json 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to re 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for re 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to random 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for random 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to time 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for time 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to concurrent 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for concurrent 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to imgaug 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for imgaug 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to imgaug 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for imgaug 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to nucleus 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for nucleus 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to os 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for os 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to sys 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for sys 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to random 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for random 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to math 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for math 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to re 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for re 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to time 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for time 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to tensorflow 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to nucleus 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for nucleus 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to os 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for os 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to sys 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for sys 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to json 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for json 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to datetime 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for datetime 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to skimage 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to imgaug 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for imgaug 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to argparse 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to into 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for into 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to os 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for os 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to sys 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for sys 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to math 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for math 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to random 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for random 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to cv2 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to os 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for os 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to sys 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for sys 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to random 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for random 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to math 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for math 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to re 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for re 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to time 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for time 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to numpy 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to cv2 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to matplotlib 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to mrcnn 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for mrcnn 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to pip 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to logging 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for logging 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to pkg_resources 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to setuptools 
+[2022-03-04 02:09:14] DEBUG: looking for a python packages corresponding to distutils 
+[2022-03-04 02:09:14] DEBUG: Didn't find python packages for distutils 
+[2022-03-04 02:09:14] DEBUG: Emily: Identified the following Python packages in the project:
+            
+            Keras
+            pandas-gbq
+            pip
+            setuptools
+ 
+[2022-03-04 02:09:16] DEBUG: Confirmation message: Should Emily add these packages to the projects requirements.txt? 
+[2022-03-04 02:09:16] DEBUG: Confirmation answer: false 
+[2022-03-04 02:09:19] DEBUG: Confirmation message: Do you want to use this editor as the default editor for this project? 
+[2022-03-04 02:09:19] DEBUG: Confirmation answer: true 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev... 
+[2022-03-04 02:09:19] VERBOSE: Disabling GPU support... 
+[2022-03-04 02:09:19] DEBUG: Event: {"@timestamp":"2022-03-04T13:09:19.296Z","platform":"win32","installationId":"a0ba273e9b4ca5c2d6379231bfde6df8","environment":"staging","version":"1.2.5","message":"Command executed: \"open\"","level":"info","event":{"name":"command","value":"open"}} 
+[2022-03-04 02:09:19] DEBUG: Emily: Opening project mask_rcnn located at C:\Users\Mathias
+       Gudiksen\Desktop\repos\Mask_RCNN.
+ 
+[2022-03-04 02:09:19] VERBOSE: Making directory: "C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.devcontainer" 
+[2022-03-04 02:09:19] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.devcontainer\docker-compose.yml... 
+[2022-03-04 02:09:19] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.devcontainer\devcontainer.json... 
+[2022-03-04 02:09:19] VERBOSE: Making directory: "C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.vscode" 
+[2022-03-04 02:09:19] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.vscode\settings.json... 
+[2022-03-04 02:09:19] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.vscode\launch.json... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev... 
+[2022-03-04 02:09:19] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\Dockerfile... 
+[2022-03-04 02:09:19] VERBOSE: Making directory: "C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments" 
+[2022-03-04 02:09:19] VERBOSE: Making directory: "C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev" 
+[2022-03-04 02:09:19] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\.emily-docker-compose.yml... 
+[2022-03-04 02:09:19] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\.env... 
+[2022-03-04 02:09:19] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\docker-compose.yml... 
+[2022-03-04 02:09:19] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.env... 
+[2022-03-04 02:09:19] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.gitignore... 
+[2022-03-04 02:09:19] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.dockerignore... 
+[2022-03-04 02:09:19] VERBOSE: Making directory: "C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.emily" 
+[2022-03-04 02:09:19] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.emily\.pid... 
+[2022-03-04 02:09:19] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\.emily-docker-compose.yml... 
+[2022-03-04 02:09:19] DEBUG: Reading C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\.emily-docker-compose.yml 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev... 
+[2022-03-04 02:09:19] VERBOSE: SHELL netstat -an | find ":4242"  
+[2022-03-04 02:09:19] DEBUG: Executing netstat -an | find ":4242"  with options {"validExitCodes":[0,1]} 
+[2022-03-04 02:09:19] DEBUG: netstat -an | find ":4242" exited with code 1 and signal null 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev... 
+[2022-03-04 02:09:19] VERBOSE: Writing C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\.emily.env... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev... 
+[2022-03-04 02:09:19] VERBOSE: Making directory: "C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.devcontainer" 
+[2022-03-04 02:09:19] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.devcontainer\docker-compose.yml... 
+[2022-03-04 02:09:19] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.devcontainer\devcontainer.json... 
+[2022-03-04 02:09:19] VERBOSE: Making directory: "C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.vscode" 
+[2022-03-04 02:09:19] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.vscode\settings.json... 
+[2022-03-04 02:09:19] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.vscode\launch.json... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev... 
+[2022-03-04 02:09:19] VERBOSE: Writing C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\.emily.env... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN... 
+[2022-03-04 02:09:19] VERBOSE: Writing C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\emily-config.json... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN... 
+[2022-03-04 02:09:19] VERBOSE: Checking VSCode... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Windows\System32... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Windows... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Windows\System32\wbem... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Windows\System32\WindowsPowerShell\v1.0\... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Windows\System32\OpenSSH\... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Program Files\Git\cmd... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Program Files\nodejs\... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x64... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Program Files\SafeNet\Authentication\SAC\x32... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\cygwin64\bin... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Program Files (x86)\GnuPG\bin... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Program Files\CMake\bin... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Program Files\Docker\Docker\resources\bin... 
+[2022-03-04 02:09:19] DEBUG: ENOENT: no such file or directory, lstat 'C:\ProgramData\DockerDesktop\version-bin'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-helper.service.js:62:44 >> vscode-helper.service.js:17:71 >> vscode-helper.service.js:13:12 >> vscode-helper.service.js:59:16
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\Scripts\... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python38\... 
+[2022-03-04 02:09:19] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\Scripts\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-helper.service.js:62:44 >> vscode-helper.service.js:17:71 >> vscode-helper.service.js:13:12 >> vscode-helper.service.js:59:16
+[2022-03-04 02:09:19] DEBUG: ENOENT: no such file or directory, lstat 'C:\Users\Mathias Gudiksen\AppData\Local\Programs\Python\Python39\'  - traced from fs.js:1115:3 >> bootstrap.js:1329:33 >> install.service.js:69:34 >> install.service.js:62:25 >> vscode-helper.service.js:62:44 >> vscode-helper.service.js:17:71 >> vscode-helper.service.js:13:12 >> vscode-helper.service.js:59:16
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Microsoft\WindowsApps... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Roaming\npm... 
+[2022-03-04 02:09:19] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\AppData\Local\Programs\Microsoft VS Code\bin... 
+[2022-03-04 02:09:19] VERBOSE: SHELL echo %username%  
+[2022-03-04 02:09:19] DEBUG: Executing echo %username%  with options {"pipeOutput":false,"validExitCodes":[0],"detached":false} 
+[2022-03-04 02:09:19] VERBOSE: Mathias Gudiksen
+ 
+[2022-03-04 02:09:19] DEBUG: echo %username% exited with code 0 and signal null 
+[2022-03-04 02:09:19] VERBOSE: SHELL powershell -command "(Get-WmiObject -Class Win32_Group -Filter 'LocalAccount = True AND SID = \"S-1-5-32-544\"').Name"  
+[2022-03-04 02:09:19] DEBUG: Executing powershell -command "(Get-WmiObject -Class Win32_Group -Filter 'LocalAccount = True AND SID = \"S-1-5-32-544\"').Name"  with options {"pipeOutput":false,"validExitCodes":[0],"detached":false} 
+[2022-03-04 02:09:19] VERBOSE: Administratorer
+ 
+[2022-03-04 02:09:19] DEBUG: powershell -command "(Get-WmiObject -Class Win32_Group -Filter 'LocalAccount = True AND SID = \"S-1-5-32-544\"').Name" exited with code 0 and signal null 
+[2022-03-04 02:09:19] DEBUG: Executing: net localgroup | findstr Administratorer
+ 
+[2022-03-04 02:09:19] VERBOSE: SHELL net localgroup | findstr Administratorer
+  
+[2022-03-04 02:09:19] DEBUG: Executing net localgroup | findstr Administratorer
+  with options {"validExitCodes":[0,1]} 
+[2022-03-04 02:09:19] VERBOSE: *Administratorer
+ 
+[2022-03-04 02:09:19] DEBUG: net localgroup | findstr Administratorer
+ exited with code 0 and signal null 
+[2022-03-04 02:09:19] VERBOSE: SHELL net localgroup Administratorer
+  
+[2022-03-04 02:09:19] DEBUG: Executing net localgroup Administratorer
+  with options {"pipeOutput":false,"validExitCodes":[0],"detached":false} 
+[2022-03-04 02:09:19] VERBOSE: Aliasnavn     Administratorer
+Kommentar     Administratorer har fuld og ubegr�nset adgang til computeren/dom�net.
+ 
+[2022-03-04 02:09:19] VERBOSE: 
+Medlemmer
+
+-------------------------------------------------------------------------------
+Administrator
+Mathias Gudiksen
+Kommandoen blev udf�rt.
+
+ 
+[2022-03-04 02:09:19] DEBUG: net localgroup Administratorer
+ exited with code 0 and signal null 
+[2022-03-04 02:09:19] VERBOSE: SHELL docker -v  
+[2022-03-04 02:09:19] DEBUG: Executing docker -v  with options {"pipeOutput":false,"validExitCodes":[0],"detached":false} 
+[2022-03-04 02:09:19] VERBOSE: Docker version 20.10.12, build e91ed57
+ 
+[2022-03-04 02:09:19] DEBUG: docker -v exited with code 0 and signal null 
+[2022-03-04 02:09:19] VERBOSE: SHELL docker info  
+[2022-03-04 02:09:19] DEBUG: Executing docker info  with options {"pipeOutput":false,"validExitCodes":[0],"detached":false} 
+[2022-03-04 02:09:20] VERBOSE: Client:
+ Context:    default
+ Debug Mode: false
+ Plugins:
+  buildx: Docker Buildx (Docker Inc., v0.7.1)
+  compose: Docker Compose (Docker Inc., v2.2.3)
+  scan: Docker Scan (Docker Inc., v0.16.0)
+
+Server:
+ Containers: 8
+  Running: 0
+  Paused: 0
+  Stopped: 8
+ Images: 42
+ Server Version: 20.10.12
+ Storage Driver: overlay2
+  Backing Filesystem: extfs
+  Supports d_type: true
+  Native Overlay Diff: true
+ 
+[2022-03-04 02:09:20] VERBOSE: WARNING: No blkio throttle.read_bps_device support
+WARNING: No blkio throttle.write_bps_device support
+WARNING: No blkio throttle.read_iops_device support
+WARNING: No blkio throttle.write_iops_device support
+ 
+[2022-03-04 02:09:20] VERBOSE:   userxattr: false
+ Logging Driver: json-file
+ Cgroup Driver: cgroupfs
+ Cgroup Version: 1
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog
+ Swarm: inactive
+ Runtimes: io.containerd.runc.v2 io.containerd.runtime.v1.linux runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: 7b11cfaabd73bb80907dd23182b9347b4245eb5d
+ runc version: v1.0.2-0-g52b36a2
+ init version: de40ad0
+ Security Options:
+  seccomp
+   Profile: default
+ Kernel Version: 5.10.16.3-microsoft-standard-WSL2
+ Operating System: Docker Desktop
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 16
+ Total Memory: 7.386GiB
+ Name: docker-desktop
+ ID: OYSX:5TVY:2P63:6D4B:DCUG:DDPL:6VQE:CJCL:HVLW:YWXH:Y677:KDWA
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ Registry: https://index.docker.io/v1/
+ Labels:
+ Experimental: false
+ Insecure Registries:
+  127.0.0.0/8
+ Live Restore Enabled: false
+
+ 
+[2022-03-04 02:09:20] DEBUG: docker info exited with code 0 and signal null 
+[2022-03-04 02:09:20] DEBUG: Emily: Starting Docker container... (this may take a while on first
+       startup)
+ 
+[2022-03-04 02:09:20] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev... 
+[2022-03-04 02:09:20] DEBUG: Reading C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.env 
+[2022-03-04 02:09:20] DEBUG: Reading C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\.emily.env 
+[2022-03-04 02:09:20] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev... 
+[2022-03-04 02:09:20] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\.env... 
+[2022-03-04 02:09:20] VERBOSE: Checking for file C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\.env... 
+[2022-03-04 02:09:20] DEBUG: Reading C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\.env 
+[2022-03-04 02:09:20] VERBOSE: Writing C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\.env... 
+[2022-03-04 02:09:20] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev... 
+[2022-03-04 02:09:20] VERBOSE: Checking for directory C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev... 
+[2022-03-04 02:09:20] INFO: Running docker-compose up command... 
+[2022-03-04 02:09:20] VERBOSE: SHELL docker-compose --project-directory "C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev" -f "C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\.emily-docker-compose.yml" -f "C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\docker-compose.yml" -f "C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.devcontainer\docker-compose.yml" up -d --build --remove-orphans 
+[2022-03-04 02:09:20] DEBUG: Executing docker-compose --project-directory "C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev" -f "C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\.emily-docker-compose.yml" -f "C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\environments\dev\docker-compose.yml" -f "C:\Users\Mathias Gudiksen\Desktop\repos\Mask_RCNN\.devcontainer\docker-compose.yml" up -d --build --remove-orphans with options {"pipeOutput":true} 
+[2022-03-04 02:10:49] DEBUG: docker-compose exited with code 0 and signal null 
+[2022-03-04 02:10:49] VERBOSE: SHELL echo %username%  
+[2022-03-04 02:10:49] DEBUG: Executing echo %username%  with options {"pipeOutput":false,"validExitCodes":[0],"detached":false} 
+[2022-03-04 02:10:49] VERBOSE: Mathias Gudiksen
+ 
+[2022-03-04 02:10:49] DEBUG: echo %username% exited with code 0 and signal null 
+[2022-03-04 02:10:49] VERBOSE: SHELL powershell -command "(Get-WmiObject -Class Win32_Group -Filter 'LocalAccount = True AND SID = \"S-1-5-32-544\"').Name"  
+[2022-03-04 02:10:49] DEBUG: Executing powershell -command "(Get-WmiObject -Class Win32_Group -Filter 'LocalAccount = True AND SID = \"S-1-5-32-544\"').Name"  with options {"pipeOutput":false,"validExitCodes":[0],"detached":false} 
+[2022-03-04 02:10:49] VERBOSE: Administratorer
+ 
+[2022-03-04 02:10:49] DEBUG: powershell -command "(Get-WmiObject -Class Win32_Group -Filter 'LocalAccount = True AND SID = \"S-1-5-32-544\"').Name" exited with code 0 and signal null 
+[2022-03-04 02:10:49] DEBUG: Executing: net localgroup | findstr Administratorer
+ 
+[2022-03-04 02:10:49] VERBOSE: SHELL net localgroup | findstr Administratorer
+  
+[2022-03-04 02:10:49] DEBUG: Executing net localgroup | findstr Administratorer
+  with options {"validExitCodes":[0,1]} 
+[2022-03-04 02:10:49] VERBOSE: *Administratorer
+ 
+[2022-03-04 02:10:49] DEBUG: net localgroup | findstr Administratorer
+ exited with code 0 and signal null 
+[2022-03-04 02:10:49] VERBOSE: SHELL net localgroup Administratorer
+  
+[2022-03-04 02:10:49] DEBUG: Executing net localgroup Administratorer
+  with options {"pipeOutput":false,"validExitCodes":[0],"detached":false} 
+[2022-03-04 02:10:49] VERBOSE: Aliasnavn     Administratorer
+ 
+[2022-03-04 02:10:49] VERBOSE: Kommentar     Administratorer har fuld og ubegr�nset adgang til computeren/dom�net.
+ 
+[2022-03-04 02:10:49] VERBOSE: 
+Medlemmer
+
+-------------------------------------------------------------------------------
+Administrator
+Mathias Gudiksen
+ 
+[2022-03-04 02:10:49] VERBOSE: Kommandoen blev udf�rt.
+
+ 
+[2022-03-04 02:10:49] DEBUG: net localgroup Administratorer
+ exited with code 0 and signal null 
+[2022-03-04 02:10:49] VERBOSE: SHELL docker -v  
+[2022-03-04 02:10:49] DEBUG: Executing docker -v  with options {"pipeOutput":false,"validExitCodes":[0],"detached":false} 
+[2022-03-04 02:10:50] VERBOSE: Docker version 20.10.12, build e91ed57
+ 
+[2022-03-04 02:10:50] DEBUG: docker -v exited with code 0 and signal null 
+[2022-03-04 02:10:50] VERBOSE: SHELL docker info  
+[2022-03-04 02:10:50] DEBUG: Executing docker info  with options {"pipeOutput":false,"validExitCodes":[0],"detached":false} 
+[2022-03-04 02:10:50] VERBOSE: Client:
+ Context:    default
+ Debug Mode: false
+ Plugins:
+  buildx: Docker Buildx (Docker Inc., v0.7.1)
+  compose: Docker Compose (Docker Inc., v2.2.3)
+  scan: Docker Scan (Docker Inc., v0.16.0)
+
+Server:
+ Containers: 8
+  Running: 1
+  Paused: 0
+  Stopped: 7
+ Images: 43
+ Server Version: 20.10.12
+ Storage Driver: overlay2
+  Backing Filesystem: extfs
+  Supports d_type: true
+  Native Overlay Diff: true
+  userxattr: false
+ Logging Driver: json-file
+ Cgroup Driver: cgroupfs
+ Cgroup Version: 1
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog
+ Swarm: inactive
+ Runtimes: runc io.containerd.runc.v2 io.containerd.runtime.v1.linux
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: 7b11cfaabd73bb80907dd23182b9347b4245eb5d
+ runc version: v1.0.2-0-g52b36a2
+ init version: de40ad0
+ 
+[2022-03-04 02:10:50] VERBOSE: WARNING: No blkio throttle.read_bps_device support
+WARNING: No blkio throttle.write_bps_device support
+WARNING: No blkio throttle.read_iops_device support
+WARNING: No blkio throttle.write_iops_device support
+ 
+[2022-03-04 02:10:50] VERBOSE:  Security Options:
+  seccomp
+   Profile: default
+ Kernel Version: 5.10.16.3-microsoft-standard-WSL2
+ Operating System: Docker Desktop
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 16
+ Total Memory: 7.386GiB
+ Name: docker-desktop
+ ID: OYSX:5TVY:2P63:6D4B:DCUG:DDPL:6VQE:CJCL:HVLW:YWXH:Y677:KDWA
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ Registry: https://index.docker.io/v1/
+ Labels:
+ Experimental: false
+ Insecure Registries:
+  127.0.0.0/8
+ Live Restore Enabled: false
+
+ 
+[2022-03-04 02:10:50] DEBUG: docker info exited with code 0 and signal null 
+[2022-03-04 02:10:50] VERBOSE: SHELL docker ps  
+[2022-03-04 02:10:50] DEBUG: Executing docker ps  with options {"pipeOutput":false,"validExitCodes":[0],"detached":false} 
+[2022-03-04 02:10:51] VERBOSE: CONTAINER ID   IMAGE                    COMMAND                  CREATED         STATUS         PORTS                    NAMES
+72c19568d683   emily-mask_rcnn-gw3ksy   "/bin/sh -c 'while s…"   5 seconds ago   Up 2 seconds   0.0.0.0:4242->4242/tcp   emily-mask_rcnn-gw3ksy
+ 
+[2022-03-04 02:10:51] DEBUG: docker ps exited with code 0 and signal null 
+[2022-03-04 02:10:51] VERBOSE: SHELL code --folder-uri=vscode-remote://dev-container%2B433a5c55736572735c4d61746869617320477564696b73656e5c4465736b746f705c7265706f735c4d61736b5f52434e4e/workspace  
+[2022-03-04 02:10:51] DEBUG: Executing code --folder-uri=vscode-remote://dev-container%2B433a5c55736572735c4d61746869617320477564696b73656e5c4465736b746f705c7265706f735c4d61736b5f52434e4e/workspace  with options {"pipeOutput":false,"validExitCodes":[0],"detached":false} 
+[2022-03-04 02:10:52] DEBUG: code --folder-uri=vscode-remote://dev-container%2B433a5c55736572735c4d61746869617320477564696b73656e5c4465736b746f705c7265706f735c4d61736b5f52434e4e/workspace exited with code 0 and signal null 

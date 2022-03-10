@@ -1,0 +1,4 @@
+version: "3"
+services:
+  emily-mask_rcnn-gw3ksy:
+    # Add your custom configuration here!
