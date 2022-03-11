@@ -100,6 +100,7 @@ class CornDataset(utils.Dataset):
 
         # All images
         image_ids = list(coco.imgs.keys())
+        class_ids = sorted(coco.getCatIds())
 
         self.add_class("coco", 1, 'corn')
 
@@ -129,7 +130,7 @@ class CornDataset(utils.Dataset):
         """
         # If not a COCO image, delegate to parent class.
         image_info = self.image_info[image_id]
-        if image_info["source"] != "coco":
+        if image_info["source"] != "corn":
             return super(CornDataset, self).load_mask(image_id)
 
         instance_masks = []
