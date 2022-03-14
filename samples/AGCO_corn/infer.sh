@@ -1,0 +1,1 @@
+python corn.py infer --dataset=../../Corn_dataset --model=last

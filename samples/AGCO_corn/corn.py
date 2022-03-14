@@ -33,7 +33,10 @@ import os
 import sys
 import time
 import numpy as np
-import imgaug  # https://github.com/aleju/imgaug (pip3 install imgaug)
+import cv2
+
+# https://github.com/aleju/imgaug (pip3 install imgaug)
+from augmentations import get_augmentations
 
 # Download and install the Python COCO tools from https://github.com/waleedka/coco
 # That's a fork from the original https://github.com/pdollar/coco with a bug
@@ -77,6 +80,9 @@ class CornConfig(Config):
 
     # Number of classes (including background)
     NUM_CLASSES = 1 + 1  # background + corn
+
+    IMAGE_MIN_DIM = 512
+    IMAGE_MAX_DIM = 512
 
 
 ############################################################
@@ -130,7 +136,7 @@ class CornDataset(utils.Dataset):
         """
         # If not a COCO image, delegate to parent class.
         image_info = self.image_info[image_id]
-        if image_info["source"] != "corn":
+        if image_info["source"] != "coco":
             return super(CornDataset, self).load_mask(image_id)
 
         instance_masks = []
@@ -361,9 +367,12 @@ if __name__ == '__main__':
 
     # Load weights
     print("Loading weights ", model_path)
-    model.load_weights(model_path, by_name=True, exclude=[
-        "mrcnn_class_logits", "mrcnn_bbox_fc",
-        "mrcnn_bbox", "mrcnn_mask"])
+    if args.command == "train":
+        model.load_weights(model_path, by_name=True, exclude=[
+            "mrcnn_class_logits", "mrcnn_bbox_fc",
+            "mrcnn_bbox", "mrcnn_mask"])
+    else:
+        model.load_weights(model_path, by_name=True)
 
     # Train or evaluate
     if args.command == "train":
@@ -379,10 +388,7 @@ if __name__ == '__main__':
         dataset_val.load_corn(args.dataset, val_type)
         dataset_val.prepare()
 
-        # Image Augmentation
-        # Right/Left flip 50% of the time
-        # ADD AUGMENTATION HERE!!!!
-        augmentation = imgaug.augmenters.Fliplr(0.5)
+        seq = get_augmentations()
 
         # *** This training schedule is an example. Update to your needs ***
 
@@ -392,7 +398,7 @@ if __name__ == '__main__':
                     learning_rate=config.LEARNING_RATE,
                     epochs=40,
                     layers='heads',
-                    augmentation=augmentation)
+                    augmentation=seq)
 
         # Training - Stage 2
         # Finetune layers from ResNet stage 4 and up
@@ -401,7 +407,7 @@ if __name__ == '__main__':
                     learning_rate=config.LEARNING_RATE,
                     epochs=120,
                     layers='4+',
-                    augmentation=augmentation)
+                    augmentation=seq)
 
         # Training - Stage 3
         # Fine tune all layers
@@ -410,7 +416,7 @@ if __name__ == '__main__':
                     learning_rate=config.LEARNING_RATE / 10,
                     epochs=160,
                     layers='all',
-                    augmentation=augmentation)
+                    augmentation=seq)
 
     elif args.command == "evaluate":
         # Validation dataset
@@ -420,6 +426,35 @@ if __name__ == '__main__':
         dataset_val.prepare()
         print("Running COCO evaluation on {} images.".format(args.limit))
         evaluate_coco(model, dataset_val, coco, "bbox", limit=int(args.limit))
+
+    elif args.command == "infer":
+        images = range(700, 810)
+        for img in images:
+            path = f'../../Corn_dataset/images/{img}.png'
+            image = cv2.imread(path)
+            raw_image = np.copy(image)
+            image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+            predictions = model.detect([image])[0]
+            image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+            masks = predictions['masks']
+            scores = predictions['scores']
+            for score, channel in zip(scores, range(masks.shape[-1])):
+                mask = cv2.cvtColor(masks[:, :, channel].astype(
+                    np.uint8), cv2.COLOR_GRAY2BGR)
+
+                if score > 0.8:
+                    mask[:, :, 1] *= 255
+                elif score > 0.5:
+                    mask[:, :, 1] *= 255
+                    mask[:, :, 2] *= 255
+                else:
+                    mask[:, :, 2] *= 255
+
+                image = cv2.addWeighted(image, 1.0, mask, 0.2, 0)
+
+            concat = np.hstack((raw_image, image))
+            cv2.imwrite('masks/' + os.path.basename(path) + '.png', concat)
+
     else:
         print("'{}' is not recognized. "
               "Use 'train' or 'evaluate'".format(args.command))
