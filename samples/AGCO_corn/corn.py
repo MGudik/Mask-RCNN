@@ -36,7 +36,7 @@ import numpy as np
 import cv2
 
 # https://github.com/aleju/imgaug (pip3 install imgaug)
-from augmentations import get_augmentations
+import imgaug.augmenters as iaa
 
 # Download and install the Python COCO tools from https://github.com/waleedka/coco
 # That's a fork from the original https://github.com/pdollar/coco with a bug
@@ -388,7 +388,20 @@ if __name__ == '__main__':
         dataset_val.load_corn(args.dataset, val_type)
         dataset_val.prepare()
 
-        seq = get_augmentations()
+        def sometimes(aug):
+            return iaa.Sometimes(0.5, aug)
+
+        seq = iaa.Sequential([
+            iaa.Fliplr(0.5),
+            iaa.Flipud(0.5),
+            iaa.LinearContrast((0.75, 1.5)),
+            iaa.Multiply((0.8, 1.2), per_channel=False),
+            iaa.Multiply((0.9, 1.1), per_channel=0.2),
+            sometimes(iaa.GaussianBlur(sigma=(0, 10))),
+            sometimes(iaa.Sharpen(alpha=(0, 1.0), lightness=(0.75, 1.5))),
+            sometimes(iaa.Dropout((0.01, 0.1), per_channel=0.5)),
+            sometimes(iaa.Grayscale(alpha=(0.0, 0.5)))
+        ], random_order=True)
 
         # *** This training schedule is an example. Update to your needs ***
 
