@@ -76,7 +76,7 @@ class CornConfig(Config):
 
     # We use a GPU with 12GB memory, which can fit two images.
     # Adjust down if you use a smaller GPU.
-    IMAGES_PER_GPU = 4
+    IMAGES_PER_GPU = 2
 
     # Number of classes (including background)
     NUM_CLASSES = 1 + 1  # background + corn
@@ -84,7 +84,7 @@ class CornConfig(Config):
     IMAGE_MIN_DIM = 512
     IMAGE_MAX_DIM = 512
 
-    STEPS_PER_EPOCH = 100
+    STEPS_PER_EPOCH = 200
 
 
 ############################################################
@@ -408,29 +408,29 @@ if __name__ == '__main__':
         # *** This training schedule is an example. Update to your needs ***
 
         # Training - Stage 1
-        print("Training network heads")
+        print("Training all layers")
         model.train(dataset_train, dataset_val,
-                    learning_rate=config.LEARNING_RATE,
-                    epochs=40,
-                    layers='heads',
+                    learning_rate=config.LEARNING_RATE / 10,
+                    epochs=20,
+                    layers='all',
                     augmentation=seq)
 
         # Training - Stage 2
         # Finetune layers from ResNet stage 4 and up
         print("Fine tune Resnet stage 4 and up")
         model.train(dataset_train, dataset_val,
-                    learning_rate=config.LEARNING_RATE,
-                    epochs=120,
+                    learning_rate=config.LEARNING_RATE / 2,
+                    epochs=40,
                     layers='4+',
                     augmentation=seq)
 
         # Training - Stage 3
         # Fine tune all layers
-        print("Fine tune all layers")
+        print("Fine tune head layers")
         model.train(dataset_train, dataset_val,
-                    learning_rate=config.LEARNING_RATE / 10,
-                    epochs=160,
-                    layers='all',
+                    learning_rate=config.LEARNING_RATE,
+                    epochs=60,
+                    layers='heads',
                     augmentation=seq)
 
     elif args.command == "evaluate":
@@ -445,7 +445,7 @@ if __name__ == '__main__':
     elif args.command == "infer":
         images = range(700, 810)
         for img in images:
-            path = f'../../Corn_dataset/images/{img}.png'
+            path = f'../../Corn_dataset/train/{img}.png'
             image = cv2.imread(path)
             raw_image = np.copy(image)
             image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
