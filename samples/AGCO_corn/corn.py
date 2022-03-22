@@ -34,6 +34,7 @@ import sys
 import time
 import numpy as np
 import cv2
+import tensorflow.keras as keras
 
 # https://github.com/aleju/imgaug (pip3 install imgaug)
 import imgaug.augmenters as iaa
@@ -47,6 +48,10 @@ import imgaug.augmenters as iaa
 from pycocotools.coco import COCO
 from pycocotools.cocoeval import COCOeval
 from pycocotools import mask as maskUtils
+import tensorflow as tf
+
+physical_devices = tf.config.list_physical_devices('GPU')
+tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
 # Root directory of the project
 ROOT_DIR = os.path.abspath("../../")
@@ -76,7 +81,7 @@ class CornConfig(Config):
 
     # We use a GPU with 12GB memory, which can fit two images.
     # Adjust down if you use a smaller GPU.
-    IMAGES_PER_GPU = 2
+    IMAGES_PER_GPU = 1
 
     # Number of classes (including background)
     NUM_CLASSES = 1 + 1  # background + corn
@@ -398,40 +403,46 @@ if __name__ == '__main__':
             iaa.Flipud(0.5),
             iaa.LinearContrast((0.75, 1.5)),
             iaa.Multiply((0.8, 1.2), per_channel=False),
-            iaa.Multiply((0.9, 1.1), per_channel=0.2),
+            iaa.Multiply((0.99, 1.01), per_channel=0.2),
             sometimes(iaa.GaussianBlur(sigma=(0, 10))),
             sometimes(iaa.Sharpen(alpha=(0, 1.0), lightness=(0.75, 1.5))),
-            sometimes(iaa.Dropout((0.01, 0.1), per_channel=0.5)),
-            sometimes(iaa.Grayscale(alpha=(0.0, 0.5)))
+            sometimes(iaa.Dropout((0.01, 0.1), per_channel=0.5))
         ], random_order=True)
 
-        # *** This training schedule is an example. Update to your needs ***
+        # Learning rate scheduler
+        def scheduler(epoch, lr):
+            if epoch in [20, 40]:
+                return lr / 10
+            elif epoch > 60:
+                return lr * tf.math.exp(-0.1)
+            else:
+                return lr
 
         # Training - Stage 1
         print("Training all layers")
+        """
         model.train(dataset_train, dataset_val,
-                    learning_rate=config.LEARNING_RATE / 10,
+                    learning_rate=config.LEARNING_RATE,
                     epochs=20,
-                    layers='all',
+                    layers='4+',
                     augmentation=seq)
 
-        # Training - Stage 2
-        # Finetune layers from ResNet stage 4 and up
-        print("Fine tune Resnet stage 4 and up")
         model.train(dataset_train, dataset_val,
-                    learning_rate=config.LEARNING_RATE / 2,
+                    learning_rate=config.LEARNING_RATE / 10,
                     epochs=40,
                     layers='4+',
                     augmentation=seq)
+        """
 
         # Training - Stage 3
         # Fine tune all layers
         print("Fine tune head layers")
         model.train(dataset_train, dataset_val,
                     learning_rate=config.LEARNING_RATE,
-                    epochs=60,
-                    layers='heads',
-                    augmentation=seq)
+                    epochs=400,
+                    layers='4+',
+                    augmentation=seq,
+                    custom_callbacks=[keras.callbacks.LearningRateScheduler(scheduler)])
 
     elif args.command == "evaluate":
         # Validation dataset
